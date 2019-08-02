@@ -1,205 +1,276 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1325691_85o5uwmax84.css"/>
-		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1325691_f9si6i5ofr4.css"/>
-		<style type="text/css">
-			*{
-				margin: 0;
-				padding: 0;
-			}
-			a{
-				text-decoration: none;
-			}
-			li{
-				list-style: none;/* 去除小黑点 */
-			}
-			.clear:after{
-							content: "";
-							display: block;
-							clear: both;
-						}
-			#toubu11{
-				height:3.375rem;
-			}
-			#toubu1{
-				width: 100%;
-				height:3.375rem;
-				position: fixed;
-				background-color:#FAFAF9;
-				padding: 0.5rem;
-				/* padding-left: 19px; */
-				
-				box-sizing: border-box;
-				display: flex;
-				flex-flow: row nowrap;
-				justify-content: space-between;
-				
-			}
-			#toubu1>a:nth-child(1){
-				text-align: center;
-				width: 10vw;
-				color: black;
-				margin-top: 9px;
-				/* margin-right: 1.25rem; */
-				box-sizing: border-box;
-				font-size: 0.75rem;
-				/* background-color: #000000; */
-			}
-			#toubu1>form>div:nth-child(1)>div>input{
-					width: 70vw;
-				/* width: 31.25rem; */
-				border-radius: 20px;
-				height: 2.563rem;
-					border: 0.0625rem solid #E2E3E3;
-					background-color: #EDEEEF;
-			}
-			.iconfont {
-				font-family: "iconfont" !important;
-				font-size: 42px;
-				font-style: normal;
-				color: #3C3C3C;
-				-webkit-font-smoothing: antialiased;
-				-moz-osx-font-smoothing: grayscale;
-			}
-				#toubu1>a:nth-child(3){
-					font-size: 2.1875rem;
-			}
-			#toubu1>:nth-child(3)>i{
-				/* margin-left: 3.125rem; */
-				width: 15vw;
-			}
-			#toubu1>:nth-child(2){
-				position: absolute;
-				left: 15%;
-			}
-		</style>
-		<style type="text/css">
-			#toubu22{
-				height:2.375rem;
-			}
-			#toubu2{
-				width: 100vw;
-				height:2.975rem;
-				background-color::#FAFAF9;
-				position: fixed;
-				top: 3.375rem;
-				/* line-height:40%; */
-				box-sizing: border-box;
-				padding: 0.625rem;
-				display: flex;
-				flex-flow: row nowrap;
-				justify-content: space-around;
-				background-color: #FAFAF9;
-				font-size:0.625rem;
-			}
-			#toubu2>a{
-				color: #000000;
-				width:6.25rem;
-			}
-			#toubu2>:nth-child(1){
-				color: #D34BA8;
-				border-bottom:5px solid #D34BA8;
-			}
-			/* #toubu2>a:active{
-				color: red;
-			}
-			#toubu2>a:visited{
-				color: red;
-			} */
-			#toubu3{
-				text-align: center;
-				height: 23vh;
-				
-			}
-			#toubu3>a{
-				height: 23vh;
-			}
-			#toubu3>a>img{
-				widows: 100vw;
-				height: 25vh;
-				/* display: none; */
-			}
-		</style>
-		
-		<style type="text/css">
-			#toubu4{
-				display:flex;
-				flex-flow: row wrap;
-				justify-content: space-around;
-				height: 20vh;
-				background-color: #FFFFFF;
-				margin-top: 0.625rem;
-			}
-			#toubu4>div>a{
-				flex-grow: 1;
-				
-			}
-			#toubu4>div>a>img{
-				width:20vw;
-				height: 11vh;
-			}
-		</style>
 		<script type="text/javascript">
-          function init(){
-          	var width=document.documentElement.clientWidth;
-          	//动态设置设备的html字体大小
-            document.documentElement.style.fontSize = width /10+ 'px';
-          }
-          
-          init()
-          //当屏幕宽度变化时
-          window.addEventListener('resize',init)
-          //当切换横竖屏时
-          window.addEventListener('orientationchange',init)
-          
+		  function init(){
+		  	var width=document.documentElement.clientWidth;
+		  	//动态设置设备的html字体大小
+		    document.documentElement.style.fontSize = width /10+ 'px';
+		  }
+		  
+		  init()
+		  //当屏幕宽度变化时
+		  window.addEventListener('resize',init)
+		  //当切换横竖屏时
+		  window.addEventListener('orientationchange',init)
+		  
 		</script>
+		<link rel="stylesheet" type="text/css" href="css/new_file02.css"/>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1325691_cotba74ne6o.css"/>
 	</head>
 	<body>
-		<div id="toubu11">
-			<div id="toubu1"><!-- 头部	 -->
-			<a href="#">登录</a>
-			<form action="">
-				<div>
-					<div class="mui-input-row mui-search">
-						<input type="search" placeholder="大家正在搜索:连衣裙" class="mui-input-clear" placeholder="">
-					</div>
-					
+		<div id="y1">
+			<div><a href="#">登录</a></div>
+			<div><form action="" method="">
+				<div class="mui-input-row mui-search">
+					<input type="search" class="mui-input-clear" placeholder="大家正在搜索:连衣裙">
 				</div>
-			</form>
-			<a href="#"><i class="iconfont">&#xe609;</i></a>
+				
+			</form></div>
+			<div><a href="#"><i class="iconfont">&#xe609;</i></a></div>
 		</div>
-
+		<div class="y0"></div>
+		<div id="y2">
+			<div><a href="#">今日推荐</a></div>
+			<div><a href="#">最后疯抢</a></div>
+			<div><a href="#">美妆</a></div>
+			<div><a href="#">母婴</a></div>
+			<div><a href="#">国际</a></div>
+			<div><a href="#">家电</a></div>
+			<div><a><i class="iconfont">&#xe679;</i></a></div>
+			
 		</div>
-		<div id="toubu22">
-			<div id="toubu2">
-				<a href="#">今日推荐</a>
-				<a href="#1">最后疯抢</a>
-				<a href="#2">美妆</a>
-				<a href="#3">母婴</a>
-				<a href="#4">国际</a>
-				<a href="#5">家电</a>
-				<i class="iconfont02">&#xe628;</i>
-			</div>
-		</div>	
-		<div id="toubu3">
-			<a href="#"><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2018/12/19/114/15452109808538.jpg" ></a></div>
-		<div id="toubu4">
-			<div><a href="">
+		<div style="height: 4vh;"></div>
+		<div class="y3" id="fanhui">
+			<a href=""><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2018/12/19/114/15452109808538.jpg" ></a>
+		</div>
+		<div id="y4">
+			<div><a href=""><i></i>
 				<img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/74/15635382610852.png" alt=""></a></div>
-			<div><a href=""><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/148/15635383515544.png" alt=""></a></div>
-			<div><a href=""><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/102/15635385870688.png" alt=""></a></div>
-			<div><a href=""><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/94/15635387103422.png" alt=""></a></div>
-			<div><a href=""><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/7/15635388624413.png" alt=""></a></div>
-			<div><a href=""><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/04/22/28/15559158215277.png" alt=""></a></div>
-			<div><a href=""><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/134/15635391523573.png" alt=""></a></div>
-			<div><a href=""><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/142/15635393166390.png" alt=""></a></div>
-			<div><a href=""><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/04/22/22/15559159941553.png" alt=""></a></div>
-			<div><a href=""><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/16/132/15632721405126.png" alt=""></a></div>
+			<div><a href=""><i></i><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/148/15635383515544.png" alt=""></a></div>
+			<div><a href=""><i></i><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/102/15635385870688.png" alt=""></a></div>
+			<div><a href=""><i></i><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/94/15635387103422.png" alt=""></a></div>
+			<div><a href=""><i></i><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/7/15635388624413.png" alt=""></a></div>
+			<div><a href=""><i></i><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/04/22/28/15559158215277.png" alt=""></a></div>
+			<div><a href=""><i></i><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/134/15635391523573.png" alt=""></a></div>
+			<div><a href=""><i></i><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/19/142/15635393166390.png" alt=""></a></div>
+			<div><a href=""><i></i><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/04/22/22/15559159941553.png" alt=""></a></div>
+			<div><a href=""><i></i><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/16/132/15632721405126.png" alt=""></a></div>
 		</div>
+		<div class="y3">
+			<a href=""><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/30/177/15644967276427.jpg" ></a>
+			
+		</div>
+		<div id="y5">
+			<div><a href="#"><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/30/166/15644917440081.jpg" ></a></div>
+			<div><a href="#"><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/30/55/15644932935229.jpg" alt=""></a></div>
+			<div><a href="#"><img src="//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/30/58/15644920167158.jpg" alt=""></a></div>
+		</div>
+		<div id="gouwuche">
+			<a href=""><i class="iconfont">&#xe60d;</i></a>
+			
+		</div>
+		<div id="fanghuishouye">
+			<a href="#fanhui"><i class="iconfont">&#xe72d;</i></a>
+			
+		</div>
+		<div id="y6">
+			<img src="https://b.appsimg.com/upload/mst/2019/07/26/44/mst_73c85d7a6cbdff6643c5f864ef240e7b.jpg" >
+			<div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcpos/1100001834/2018/0913/31/01fb3e6d-abd4-4cc9-8528-b2b996ab2002.jpg" >
+					<img src="https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/3a0171c7513d4d73af4fdd13d23a1866/10012218/primary.png" >
+					<span>¥37</span>
+					</a>
+					
+					</div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/606607/2019/0709/61/c94dd6c0-9523-45bf-af21-5ff7d724b9d7.jpg" >
+				<img src="https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/0901d28168d34721bdd5a79844e8e089/10001050/primary.png" >
+				<span>¥159</span></a>
+					</div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcpos/1100000124/2019/0722/33/664c7779-7372-4db5-94d6-7796ed1d2a65.jpg" >
+				<img src="https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/eab0355c7606472a9f69fcb79b3178e1/10000057/primary.png" >
+				<span>¥69</span></a>
+					</div>
+				<div>
+					<a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/105933/2019/0710/105/84ef648c-d636-46e8-ae61-e1c59bfcf2e0.jpg" >
+				<img src="https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/afe7149b7f554c1c941c7da57acb91bf/10024508/primary.png" >
+				<span>¥89</span></a></div>
+			</div>
+			
+		</div>
+		<div id="y7">
+			<img src="https://b.appsimg.com/upload/mst/2019/07/31/6/mst_435a735d375054989d1de16ed9cb2b62.jpg" >
+			<div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/06/28/168/444b61e5-34cb-4869-af17-52de8126f266_420_531.jpg" >
+				<div><img src="https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/76c05578b0c34cae9867cb8fe793946a/10027101/black.png" >
+				<span>共384款</span></div>
+				<i>疯抢价</i><span>¥367</span>
+				</a></div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2018/03/14/130/ec778ad2-751c-4be2-b9de-aad7ea76e87b_t.jpg" >
+				<div><img src="https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/986f6d1369154ed58de354731bb36e38/10006075/black.png" >
+				<span>共748款</span></div>
+				<i>疯抢价</i><span>¥958</span>
+				</a></div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/01/04/61/7efacec5-2138-4da7-b5dd-2345104e537d_5t.jpg" >
+				<div><img src="https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/8120ad7021fa41f1bd874e1d0809f156/10010670/black.png" >
+				<span>共542款</span></div>
+				<i>疯抢价</i><span>¥106</span>
+				</a></div>
+			</div>
+		</div>
+		<div id="y8">
+			<img src="https://h2.appsimg.com/b.appsimg.com/upload/momin/2018/11/13/117/1542092001276.jpg" >
+			<a href=""><img src="https://h2.appsimg.com/b.appsimg.com/upload/mst/2019/07/31/66/8227df988953708f1886cd360a1e7ae2_1135x545_85.jpg" ></a>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/07/31/86/ias_156456723895132_1135x545_85.jpg" ></a>
+			<span><b>大牌香水七夕好礼专场</b></span>
+			<span>还剩&nbsp;<i>16</i>:<i>32</i>:<i>08</i></span>
+			<span><i>1.9</i>折起</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/07/30/190/ias_156446855039222_1135x545_85.jpg" ></a>
+			<span><b>茵曼女装专场</b></span>
+			<span>还剩&nbsp;<i>16</i>:<i>32</i>:<i>08</i></span>
+			<span><i>0.8</i>折起</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/08/01/36/ias_156464979969402_1135x545_85.jpg" ></a>
+			<span><b>喜钻钻石珠宝 爱自己 七夕特卖专场</b></span>
+			<span>还剩&nbsp;<i>16</i>:<i>32</i>:<i>08</i></span>
+			<span><i>0.7</i>折起</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/07/30/180/ias_156445679431743_1135x545_85.jpg" ></a>
+			<span><b>他她TATA男女鞋专场</b></span>
+			<span>还剩&nbsp;<i>16</i>:<i>32</i>:<i>08</i></span>
+			<span><i>0.8</i>折起</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/08/01/141/ias_156463997783102_1135x545_85.jpg" ></a>
+			<span><b>鸿星尔克ERKE男女运动鞋服专场</b></span>
+			<span>还剩&nbsp;<i>16</i>:<i>32</i>:<i>08</i></span>
+			<span><i>2.4</i>折起</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/07/30/160/ias_156445833875378_1135x545_85.jpg" ></a>
+			<span><b>博洋集团果壳&YSO家居服-七夕精选</b></span>
+			<span>还剩&nbsp;<i>16</i>:<i>32</i>:<i>08</i></span>
+			<span><i>0.7</i>折起</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/08/01/32/ias_156465014522119_1135x545_85.jpg" ></a>
+			<span><b>ELLE拉杆箱狂暑季专场</b></span>
+			<span>还剩&nbsp;<i>16</i>:<i>32</i>:<i>08</i></span>
+			<span><i>2.1</i>折起</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/07/11/81/ias_156281697297174_1135x545_85.jpg" ></a>
+			<span><b>QUEEN NANA女装好货直降专场</b></span>
+			<span>还剩2天</span>
+			<span><i>3.8</i>折封顶</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/07/26/184/ias_156411726793024_1135x545_85.jpg" ></a>
+			<span><b>好货直降 唐狮童装专场</b></span>
+			<span>还剩2天</span>
+			<span><i>4.8</i>折封顶</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/07/17/42/ias_156335584230321_1135x545_85.jpg" ></a>
+			<span><b>卡帝乐鳄鱼CARTELO运动服饰好货直降专场</b></span>
+			<span>还剩2天</span>
+			<span><i>4.4</i>折封顶</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/06/25/136/ias_d0fc333c-ce3b-4562-b59f-a542ce6a94b4_1135x545_85.jpg" ></a>
+			<span><b>鹿皇羊女装热销专场</b></span>
+			
+			<span><i>0.4</i>折封顶</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/06/12/163/ias_fe111b3c-65b2-40c9-b191-f549f4ad6ee0_1135x545_85.jpg" ></a>
+			<span><b>今典连衣裙热销专场</b></span>
+			
+			<span><i>1.4</i>折封顶</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/06/11/104/ias_f363bb7a-21fc-41eb-b0fb-e8ceba9fa217_1135x545_85.jpg" ></a>
+			<span><b>洛可可女装特卖专场</b></span>
+			
+			<span><i>1.3</i>折起</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/07/20/172/ias_c410f6e1-94dd-4672-9864-9ca705dccdef_1135x545_85.jpg" ></a>
+			<span><b>朗姿女装热销专场</b></span>
+			<span>还剩&nbsp;<i>16</i>:<i>32</i>:<i>08</i></span>
+			<span><i>0.5</i>折起</span>
+		</div>
+		<div class="y9">
+			<a href="#"><img src="https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/05/17/129/ias_6d7316e5-63ca-4aa9-9a86-70e940832947_1135x545_85.jpg" ></a>
+			<span><b>诗篇女装热销专场</b></span>
+			<span>还剩&nbsp;<i>16</i>:<i>32</i>:<i>08</i></span>
+			<span><i>1</i>折起</span>
+		</div>
+		<div id="y10">
+			<span>猜你喜欢</span>
+			<div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/104218/2019/0301/146/86ab65f4-e7f1-4266-8e80-d2ba0aa8f954.jpg" alt=""><span>连衣裙</span></a></div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvop/00104218/10004116/1817878598-749926045353988097-677868451316924484-3.jpg" alt=""><span>女士体恤</span></a></div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/06/19/41/62c3242a-ec89-4044-9bf7-0a324f83bcc2.jpg" alt=""><span>女士套装</span></a></div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/607549/2019/0716/149/a43551b2-4876-4695-8679-9000c60927bb.jpg" alt=""><span>护肤套装</span></a></div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/600149/2018/0918/193/7f854d49-289a-46fd-8915-a6a07e312cc0.jpg" alt=""><span>手机</span></a></div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvop/00603480/10000731/1279967202-247211623003836416-175154185070739456-1.jpg" alt=""><span>女凉鞋</span></a></div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2017/04/05/150/8bbbf500-1e77-4730-bbd6-3e75014cc244.jpg" alt=""><span>女单鞋</span></a></div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/03/13/76/98ff879f-81a1-4e73-b3a9-560eaec50039.jpg" alt=""><span>女式衬衫</span></a></div>
+				<div><a href=""><img src="https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/104218/2019/0124/51/84256325-6d78-4fa4-b09e-ce06017aeaa0.jpg" alt=""><span>休闲鞋</span></a></div>
+			</div>
+		</div>
+		<div id="y00">
+			<div><a href=""><span class="iconfont">&#xe6bc;</span><i>即将上线</i>
+							</a></div>
+					<i class="iconfont">&#xe63a;</i>
+			<div><a href=""><span class="iconfont">&#xe649;</span><i>唯品团购</i></a>
+				</div>
+			<i class="iconfont">&#xe63a;</i>
+			<div><a href=""><span class="iconfont">&#xe6a2;</span><i>正品保证</i></a>
+				</div>
+			<i class="iconfont">&#xe63a;</i>
+			<div><a href=""><span class="iconfont">&#xe741;</span><i>唯品客服</i></a>
+				</div>
+		</div>
+		<div id="y000">
+			<div>
+				<a href="#">
+					<div>
+						唯品会
+					</div>
+					<p>唯品会客户端，特卖抢不停</p>
+					<div>
+						下载
+					</div>
+				</a>
+				
+			</div>
+			<div>
+				<a href="#">唯品会首页</a>
+				<a href="#">关于我们</a>
+				<a href="#">登录</a>
+				<a href="#">注册</a>
+				
+			</div>
+			<div >
+				<p style="font-size: 0.25rem;color: #7AA3B8;">Copyright © 2008-2017 m.vip.com, All Rights Reserved 粤ICP备08114786号</p>
+				<p style="font-size: 0.3rem;color: #7AA3B8;">粤公网安备 44010302000068号</p>
+			</div>
+		</div>
+		
+		
+		
+		
+		
 	</body>
 </html>
